@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Object Detection</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .btn {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 12px;
+            border: 2px solid #4CAF50;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: white;
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Real-Time Object Detection</h1>
+        <p>
+            This demo uses your webcam to detect objects in real-time. Click "Allow Webcam Access" to continue.
+        </p>
+        <button class="btn" onclick="redirectToWebcamPage()">Allow Webcam Access</button>
+    </div>
+
+    <!-- Add your JavaScript code here -->
+    <script>
+        function redirectToWebcamPage() {
+            // Redirect to the webcam page
+            window.location.href = 'index.html'; // Replace 'webcam.html' with the filename of your destination HTML page
+        }
+    </script>
+</body>
+</html>
