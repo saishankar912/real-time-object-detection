@@ -1,1 +1,2 @@
 # real-time-object-detection
+real-time object detection systems by integrating natural language processing (NLP) techniques for generating descriptive textual information about detected objects. The proposed system combines the capabilities of object detection algorithms with NLP models to automatically generate human-readable descriptions of objects identified in a video stream. The implementation involves preprocessing the detected object labels, selecting or developing an appropriate NLP model, and integrating it seamlessly into the object detection pipeline.
