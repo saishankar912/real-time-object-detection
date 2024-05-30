@@ -3,3 +3,4 @@ real-time object detection systems by integrating natural language processing (N
 # Front-end and Back-end
 Flask serves as the backbone for our application, chosen for its ease of use and ability to respond quickly to real-time data. Flask also supports the deployment of our model with minimal setup, and for the frontend part, I have used HTML and CSS.
 ![image](https://github.com/saishankar912/real-time-object-detection/assets/154368009/58588a76-ed13-4291-822d-5ae290d610fa)
+![image](https://github.com/saishankar912/real-time-object-detection/assets/154368009/bdbe62ce-36fb-4e74-8619-528cd3c3b5e7)
